@@ -1,0 +1,12 @@
+{
+    "appenders": {
+      "es-service":{
+        "type": "datefile",
+        "pattern": "-yyyy-MM-dd",
+        "filename": "log/es-searvice.log"
+      }
+    },
+    "categories": {
+      "default": { "appenders": [ "es-service" ], "level": "DEBUG" }
+    }
+  }
